@@ -1,0 +1,52 @@
+:root {
+  /* Marca */
+  --color-navy: #1C2377;
+  --color-blue: #1E88E5;
+  --color-cyan: #29B6F6;
+  --color-pink: #F06292;
+  --color-pink-dark: #C2185B;
+
+  /* Neutros */
+  --color-bg: #F6F8FC;
+  --color-surface: #FFFFFF;
+  --color-border: #E3E8F2;
+  --color-text: #1A1F36;
+  --color-text-muted: #5B6478;
+
+  /* Estados */
+  --color-success: #2E9E6B;
+  --color-error: #C62828;
+  --color-warning: #B26A00;
+
+  /* Vista previa WhatsApp (DESIGN.md §7.2) */
+  --color-wa-bubble: #E7FFDB;
+  --color-wa-bg: #EFEAE2;
+
+  /* Degradado */
+  --gradient-brand: linear-gradient(90deg, #29B6F6 0%, #1E88E5 50%, #F06292 100%);
+
+  /* Espaciado */
+  --space-1: 4px;
+  --space-2: 8px;
+  --space-3: 12px;
+  --space-4: 16px;
+  --space-6: 24px;
+  --space-8: 32px;
+
+  /* Forma */
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --shadow-card: 0 2px 8px rgba(28, 35, 119, 0.08);
+
+  /* Tipografía */
+  --font-heading: 'Poppins', system-ui, sans-serif;
+  --font-body: 'Inter', system-ui, sans-serif;
+
+  /* Layout */
+  --header-height: 64px;
+  --content-max-width: 480px;
+  --tap-target: 48px;
+
+  /* Movimiento */
+  --transition-fast: 150ms ease-out;
+}
